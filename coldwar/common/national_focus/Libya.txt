@@ -1,0 +1,645 @@
+focus_tree = {
+	id = Libya
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LBA
+		}
+	}
+	default = no
+	focus = {
+		id = LBA_Developing_the_Nation
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = LBA_Diplomatic_Relations
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		x = 17
+		y = 0
+
+	}
+	focus = {
+		id = LBA_Politics
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		x = 37
+		y = 0
+
+	}
+	focus = {
+		id = LBA_The_5_Year_Plan
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Developing_the_Nation
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = LBA_1963_Plan
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_The_5_Year_Plan
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = LBA_1964_Plan
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_1963_Plan
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = LBA_1965_Plan
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_1964_Plan
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = LBA_1966_Plan
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_1965_Plan
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = LBA_1967_Plan
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_1966_Plan
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = LBA_Foreign_Trade
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Developing_the_Nation
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = LBA_Mediterranean_Trade
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Foreign_Trade
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Italian_Relations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Mediterranean_Trade
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Italian_Trade
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Italian_Relations
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = LBA_Greek_Relations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Mediterranean_Trade
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Petroleum
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Developing_the_Nation
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = LBA_Develop_Oil_Industry
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Petroleum
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Exporting_Oil
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Develop_Oil_Industry
+		}
+		prerequisite = {
+			focus = LBA_Mediterranean_Trade
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Turkish_Relations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Mediterranean_Trade
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Turkish_Trade
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Turkish_Relations
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = LBA_Western_Relations
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Diplomatic_Relations
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = LBA_Invite_Foreign_Investors
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Western_Relations
+		}
+		prerequisite = {
+			focus = LBA_Petroleum
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Invite_Foreign_Oil_Companies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Invite_Foreign_Investors
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = LBA_American_Relations
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Western_Relations
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Economic_Relief_American
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_American_Relations
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = LBA_British_Relations
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Western_Relations
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Economic_Relief_British
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_British_Relations
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = LBA_French_Relations
+		icon = GFX_focus_chi_reach_out_to_france
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Western_Relations
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = LBA_French_Trading
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_French_Relations
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Soviet_Relations
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Western_Relations
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Soviet_Trade
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Soviet_Relations
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Northern_African_Relations
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Diplomatic_Relations
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = LBA_OPEC
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Northern_African_Relations
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Egyptian_Relations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Northern_African_Relations
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Egyptian_Teachers
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Egyptian_Relations
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Mandatory_Egyptian_History
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Egyptian_Teachers
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Middle_Eastern_Relations
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Egyptian_Relations
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Cyrenaican_King
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Politics
+		}
+		x = 35
+		y = 1
+
+	}
+	focus = {
+		id = LBA_Improve_Cyrenaica
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Cyrenaican_King
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Fighting_Corruption
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Politics
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = LBA_Abolish_Federal_System
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Fighting_Corruption
+		}
+		mutually_exclusive = {
+			focus = LBA_Increase_Democratic_Process
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Concrete_Economic_Planning
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Abolish_Federal_System
+		}
+		prerequisite = {
+			focus = LBA_Improve_Cyrenaica
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Concrete_Administrative_Planning
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Abolish_Federal_System
+		}
+		prerequisite = {
+			focus = LBA_Improve_Cyrenaica
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Increase_Democratic_Process
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Fighting_Corruption
+		}
+		mutually_exclusive = {
+			focus = LBA_Abolish_Federal_System
+		}
+		x = 44
+		y = 2
+
+	}
+	focus = {
+		id = LBA_Increase_Prime_Minister_Power
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Increase_Democratic_Process
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Decrease_the_Kings_Power
+		icon = GFX_focus_rom_handle_king
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Increase_Democratic_Process
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = LBA_Allow_Political_Parties
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Increase_Prime_Minister_Power
+		}
+		prerequisite = {
+			focus = LBA_Decrease_the_Kings_Power
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Elections_for_Parliment
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Allow_Political_Parties
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = LBA_Power_to_the_People
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Allow_Political_Parties
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = LBA_Republic_of_Libya
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Power_to_the_People
+		}
+		prerequisite = {
+			focus = LBA_Elections_for_Parliment
+		}
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = LBA_5_Year_Plan_Complete
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_1967_Plan
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = LBA_Direct_Taxes
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Concrete_Economic_Planning
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Direct_Oil_Revenue
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Direct_Taxes
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = LBA_Increase_King_Idris_Power
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Concrete_Administrative_Planning
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = LBA_Weaken_Other_Libyan_Provinces
+		icon = GFX_focus_cze_german_puppet
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Increase_King_Idris_Power
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = LBA_Kingdom_of_Libya
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Weaken_Other_Libyan_Provinces
+		}
+		prerequisite = {
+			focus = LBA_Direct_Oil_Revenue
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = LBA_Greek_Trade
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = LBA_Greek_Relations
+		}
+		x = 6
+		y = 5
+
+	}
+}

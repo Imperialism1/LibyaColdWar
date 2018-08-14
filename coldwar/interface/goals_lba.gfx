@@ -1,0 +1,60 @@
+spriteTypes = {
+
+
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Abolish_Federal_System"
+	texturefile = "gfx/interface/goals/focus_LBA_Abolish_Federal_System.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_America"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_America.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_Egypt"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_Egypt.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_England"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_England.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_France"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_France.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_Italy"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_Italy.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_Soviet"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_Soviet.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Economic_Aid_Turkey"
+	texturefile = "gfx/interface/goals/focus_LBA_Economic_Aid_Turkey.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Egypt_Relations"
+	texturefile = "gfx/interface/goals/focus_LBA_Egypt_Relations.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Foreign_Oil_Companies"
+	texturefile = "gfx/interface/goals/focus_LBA_Foreign_Oil_Companies.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Greece_Relations"
+	texturefile = "gfx/interface/goals/focus_LBA_Greece_Relations.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Greece_Trade"
+	texturefile = "gfx/interface/goals/focus_LBA_Greece_Trade.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Italy_Relations"
+	texturefile = "gfx/interface/goals/focus_LBA_Italy_Relations.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_LBA_Turkey_Relations"
+	texturefile = "gfx/interface/goals/focus_LBA_Turkey_Relations.dds"
+	}
+}
