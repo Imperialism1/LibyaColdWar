@@ -1,0 +1,19 @@
+ideas = { 
+	country = {
+		LBA_Foreign_Investors_Idea = {
+			allowed = {
+				always = yes
+			}
+			picture = Generic_goods_red_bonus
+
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1 
+				consumer_goods_factor = -0.05 
+			}
+
+
+
+		}
+
+
+	}

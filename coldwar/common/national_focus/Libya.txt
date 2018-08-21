@@ -23,6 +23,10 @@ focus_tree = {
 		x = 17
 		y = 0
 
+		completion_reward = {
+			add_political_power = 150
+		}
+
 	}
 	focus = {
 		id = LBA_Politics
@@ -30,6 +34,10 @@ focus_tree = {
 		cost = 10.00
 		x = 37
 		y = 0
+
+		completion_reward = {
+			add_political_power = 150
+		}
 
 	}
 	focus = {
@@ -107,6 +115,10 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
+
+		completion_reward = {
+			add_ideas = LBA_Foreign_Investors_Idea
+		}
 
 	}
 	focus = {
@@ -234,6 +246,10 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
+
+		completion_reward = {
+			add_ideas = LBA_Foreign_Investors_Idea
+		}
 
 	}
 	focus = {

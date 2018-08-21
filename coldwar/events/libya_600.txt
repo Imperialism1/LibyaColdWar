@@ -1,0 +1,22 @@
+add_namespace = libya_60
+
+country_event = {
+	id = libya.50
+	title = libya.50.t
+	desc = libya.50.d
+	picture = GFX_report_event_generic_army
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = libya.50.a
+		
+
+		
+	}
+	option = {
+		name = libya.50.b
+		
+		
+	}
+}
