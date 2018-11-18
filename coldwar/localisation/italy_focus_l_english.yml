@@ -57,6 +57,10 @@
  LBA_Kingdom_of_Libya:0 "Kingdom of Libya"
  LBA_Greek_Trade:0 "Trade with Greece"
  LBA_French_Trading:0 "Trade with France"
+ libya.50.t:0 "coup d'état!"
+ libya.50.d:0 "A group of around 70 soldiers led by  Muammar Gaddafi were able to take control of the government in a coup d'état against King Idris. Muammar Gaddafi has faced little resistance as much of the army and young citizens have joined in support of his new government. This is the beginning of a new Libya. "
+ libya.50.a:0 "Gaddafi Will Lead us out of our Dark Age!"
+ LBA_Foreign_Investors_Idea:0 "Foreign Investors"
 
  
 
